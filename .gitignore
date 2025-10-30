@@ -1,0 +1,73 @@
+# -------------------------------
+# Python cache / build artifacts
+# -------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# -------------------------------
+# Virtual environments
+# -------------------------------
+.env
+.venv/
+venv/
+env/
+*.env
+
+# -------------------------------
+# IDE / editor metadata
+# -------------------------------
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# -------------------------------
+# Jupyter / notebooks
+# -------------------------------
+*.ipynb
+.ipynb_checkpoints/
+
+# -------------------------------
+# Machine Learning artifacts
+# -------------------------------
+runs/
+checkpoints/
+logs/
+tensorboard/
+wandb/
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.npz
+*.npy
+*.pkl
+*.onnx
+
+# -------------------------------
+# Datasets / generated outputs
+# -------------------------------
+data/
+datasets/
+outputs/
+results/
+tmp/
+*.zip
+*.tar
+*.gz
+
+# -------------------------------
+# OS / misc
+# -------------------------------
+.DS_Store
+Thumbs.db
+*.bak
+*.swp
+*~
